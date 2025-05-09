@@ -10,17 +10,17 @@ declare -A hosts_stop=(
 
 # Comandos de subida por IP
 declare -A hosts_start=(
-  ["172.24.3.45"]="systemctl start nginx"
+  ["10.0.0.4"]="systemctl start nginx"
 )
 
 # Ordem de parada
 order_stop=(
-  172.24.3.45
+  10.0.0.4
 )
 
 # Ordem de subida (reversa)
 order_start=(
-  172.24.3.45
+  10.0.0.4
 )
 
 # Função para parar serviços
